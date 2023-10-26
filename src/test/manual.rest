@@ -1,0 +1,7 @@
+POST http://localhost:7071/admin/functions/newDoc
+Content-Type: application/json
+
+{ "hello":"world"   }
+
+###
+GET http://localhost:7071/admin/functions/newDoc
